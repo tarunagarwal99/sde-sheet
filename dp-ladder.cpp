@@ -23,14 +23,14 @@ int help(int s,int n){
     int ans = help(s+1,n)+help(s+2,n);
     dp[s]=ans;
     return dp[s];
-}
+}55
 
 int main() {
 
     int n;
     cin>>n;
-    itn dp[46];
-    for (itn i = 0; i < 46; i++)
+    int dp[46];
+    for (int i = 0; i < 46; i++)
     {
         dp[i]=-1;
     }
